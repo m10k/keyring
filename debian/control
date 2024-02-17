@@ -1,0 +1,14 @@
+Source: m10k-keyring
+Priority: optional
+Maintainer: Matthias Kruk <m@m10k.eu>
+Build-Depends: debhelper (>= 9), make, coreutils
+Standards-Version: 3.9.8
+Section: misc
+Homepage: https://github.com/m10k/keyring
+
+Package: m10k-keyring
+Section: misc
+Architecture: all
+Depends: apt, ${shlibs:Depends}
+Recomments: gnupg
+Description: Keyring for m10k package mirror
